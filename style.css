@@ -1,0 +1,21 @@
+body {
+  font-family: 'Baskervville', serif;
+}
+
+:root {
+  --cor-principal: rgb(114, 243, 114);
+  --cor-secundaria: rgb(252, 252, 97); 
+  --cor-destaque: rgb(109, 109, 238);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--cor-principal);
+}
+
+.lead {
+  color: var(--cor-secundario);
+}
+
+footer a {
+  color: var(--cor-destaque);
+}
